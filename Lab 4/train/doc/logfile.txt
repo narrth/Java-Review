@@ -1,0 +1,44 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\Java\jdk1.7.0_79\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.7
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;E:\SYSC2004\Lab 4\train
+-d
+E:\SYSC2004\Lab 4\train\doc
+-encoding
+windows-1252
+-charset
+windows-1252
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+E:\SYSC2004\Lab 4\train\Car.java
+<---- end of javadoc command ---->
+Loading source file E:\SYSC2004\Lab 4\train\Car.java...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_79
+Building tree for all the packages and classes...
+Generating E:\SYSC2004\Lab 4\train\doc\Car.html...
+E:\SYSC2004\Lab 4\train\Car.java:45: warning - @param argument "carID" is not a parameter name.
+E:\SYSC2004\Lab 4\train\Car.java:45: warning - @param argument "isBuisinessClass" is not a parameter name.
+Generating E:\SYSC2004\Lab 4\train\doc\package-frame.html...
+Generating E:\SYSC2004\Lab 4\train\doc\package-summary.html...
+Generating E:\SYSC2004\Lab 4\train\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating E:\SYSC2004\Lab 4\train\doc\allclasses-frame.html...
+Generating E:\SYSC2004\Lab 4\train\doc\allclasses-noframe.html...
+Generating E:\SYSC2004\Lab 4\train\doc\index.html...
+Generating E:\SYSC2004\Lab 4\train\doc\stylesheet.css...
+2 warnings
