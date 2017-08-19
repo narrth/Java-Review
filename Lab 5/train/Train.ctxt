@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=numberOfCars
+comment0.target=Train(int)
+comment1.params=car
+comment1.target=void\ addCar(Car)
+comment2.params=requestedClass
+comment2.target=boolean\ issueTicket(boolean)
+comment3.params=id\ seatNo
+comment3.target=boolean\ cancelTicket(int,\ int)
+numComments=4

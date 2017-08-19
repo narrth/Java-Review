@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Deck()
+comment0.text=\r\n\ Constructs\ a\ new,\ unshuffled\ deck\ containing\ 52\ playing\ cards.\r\n
+comment1.params=suit
+comment1.target=void\ buildSuit(java.lang.String)
+comment1.text=\r\n\ Creates\ the\ 13\ cards\ for\ the\ specified\ suit,\ and\ adds\ them\r\n\ to\ this\ deck.\r\n\ \r\n\ @param\ suit,\ the\ given\ suit\ of\ the\ cards\ to\ be\ built\r\n
+comment2.params=
+comment2.target=void\ shuffle()
+comment2.text=\r\n\ Shuffles\ this\ deck\ of\ cards.\r\n
+comment3.params=
+comment3.target=Card\ dealCard()
+comment3.text=\r\n\ Removes\ a\ card\ from\ this\ deck.\r\n\ \r\n\ @return\ cards.remove(0)\ ,\ returns\ the\ removed\ card\r\n
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment4.text=\r\n\ Determines\ if\ this\ deck\ is\ empty.\r\n\ \r\n\ @return\ returns\ true\ if\ the\ deck\ is\ empty\ false\ if\ otherwise\r\n
+comment5.params=
+comment5.target=int\ size()
+comment5.text=\r\n\ Returns\ the\ number\ of\ cards\ that\ are\ currently\ in\ the\ deck.\r\n\ \r\n\ @return\ cards.size(),\ returns\ the\ size\ of\ the\ arraylist\ cards,\ \r\n\ which\ is\ also\ the\ number\ of\ cards\ in\ the\ deck\r\n
+numComments=6
