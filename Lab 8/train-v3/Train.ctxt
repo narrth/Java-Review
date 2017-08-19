@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Train()
+comment0.text=\ \r\n\ Constructs\ an\ empty\ train;\ i.e.,\ one\ that\ has\ no\ cars.\r\n\ \r\n\ initializes\ the\ cars\ field\ with\ the\ reference\ to\ a\ new\ ArrayList\r\n\ object\ that\ can\ store\ references\ to\ Car\ objects\ \r\n
+comment1.params=car
+comment1.target=void\ addCar(Car)
+comment1.text=\r\n\ Adds\ the\ specified\ car\ to\ this\ train.\r\n\ \r\n\ @param\:\ car\ is\ the\ specified\ car\ object\ to\ be\ added\ to\ the\ list\ cars\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ cars()
+comment2.text=\r\n\ Returns\ this\ trains's\ list\ of\ cars.\ This\ method\ is\ intended\ for\ \r\n\ testing\ purposes\ only,\ and\ should\ not\ be\ called\ by\ other\ objects,\r\n\ as\ it\ may\ be\ removed\ from\ the\ final\ version\ of\ this\ class.\r\n\ \r\n\ @return\ A\ list\ of\ the\ cars\ in\ the\ train\r\n
+comment3.params=businessClassSeat
+comment3.target=boolean\ issueTicket(boolean)
+comment3.text=\r\n\ Attempts\ to\ issue\ a\ ticket\ for\ a\ business\ class\ seat\ or\ an\r\n\ economy\ class\ seat,\ as\ specified\ by\ the\ method's\ argument.\r\n\ It\ will\ attempt\ to\ book\ a\ seat\ in\ the\ first\ car\ of\ the\ appropriate\r\n\ type,\ but\ if\ a\ seat\ is\ not\ available\ it\ will\ attempt\ to\ book\ a\ seat\r\n\ in\ the\ second\ car\ of\ the\ appropriate\ type,\ and\ so\ on.\ \r\n\ A\ request\ to\ issue\ a\ ticket\ in\ a\ business-class\ car\ will\ never\ result\r\n\ in\ a\ seat\ being\ reserved\ in\ an\ economy-class\ car,\ and\ vice-versa.\ \r\n\ Returns\ true\ if\ successful,\ false\ otherwise.\r\n\ \r\n\ @param\ businessClassSeat\:\ variable\ containing\ whether\ the\ user\ requires\ business\ class\ seats\r\n\ @return\:\ true\ if\ seats\ were\ booked\ successfully\r\n\ @return\:\ false\ if\ seats\ were\ not\ booked\r\n
+comment4.params=carId\ seatNo
+comment4.target=boolean\ cancelTicket(int,\ int)
+comment4.text=\r\n\ Cancels\ the\ ticket\ for\ the\ specified\ seat\ in\ the\ specified\ car.\r\n\ Returns\ true\ if\ successful,\ false\ otherwise.\r\n\ \r\n\ @param\ carId\:\ contains\ the\ carID\ (integer)\ of\ the\ car\ containing\ the\ seat\ to\ be\ canceled\r\n\ @param\ seatNo\:\ contains\ the\ seat\ number\ (integer)\ of\ the\ seat\ to\ be\ canceled\r\n\r\n\ @return\:\ true\ if\ seats\ were\ cancelled\ successfully\r\n\ @return\:\ false\ if\ seats\ were\ not\ cancelled\r\n
+numComments=5
